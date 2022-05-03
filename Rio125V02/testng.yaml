@@ -1,0 +1,9 @@
+name: Suite
+configFailurePolicy: skip
+tests:
+  - name: Test
+  parameters: { browser: chrome }
+  classes:
+    - com.tcs.scripts.TestBase
+    - com.tcs.scripts.TCAdmin
+
